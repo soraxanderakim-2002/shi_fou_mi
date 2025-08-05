@@ -14,20 +14,20 @@ while True:
        print("Choix invalide. Réessayez.")
        continue  
     
-    print(shi, ordi)
+    print( "votre choix : "+ shi + ". le choix de lordi : "+ ordi)
     
     if shi == ordi :
        print("egaliter !!")
     
-    elif (shi.lower() == "pierre" and ordi.lower() == "ciseau") :
+    elif (shi == "pierre" and ordi == "ciseau") :
         print("vous avez gagner genial !!")
         continue
         
-    elif (shi.lower() == "ciseau" and ordi.lower() == "feuille") :
+    elif (shi == "ciseau" and ordi == "feuille") :
          print("vous avez gagner genial !!")
          continue
          
-    elif (shi.lower() == "feuille" and ordi.lower() == "pierre") :
+    elif (shi == "feuille" and ordi == "pierre") :
          print("vous avez gagner !!! ")   
          continue
     
@@ -41,9 +41,9 @@ while True:
     
     choix = input("quel choix avez vous fait : 'q' pour quitter ou 'c' pour continuer ").lower()
     
-    if choix.lower() == "q":
+    if choix == "q":
        break
     
-    elif choix.lower() == "c":
+    elif choix == "c":
          continue
-        
+         
